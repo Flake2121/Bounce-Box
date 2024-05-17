@@ -35,5 +35,7 @@ function draw() {
   px=x;
   x += cx;
   y += cy;
-  
+  if (x==0 && y==0){
+    background(0);
+  }
 }
