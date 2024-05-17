@@ -4,15 +4,15 @@ var cx = 10;
 var cy = 10;
 var px=0;
 var py=0;
-
+let person = prompt("Enter Speed:", "10");
 
 function setup() {
   createCanvas(window.screen.width, window.screen.height);
   background(0);
-  x = (width / 2)+1;
-  y = (height / 2)+1;
-  px=x-2
-  py=y-2
+  x = width / 2;
+  y = height / 2;
+  px=x
+  py=y
   frameRate(144);
   strokeCap(PROJECT);
 }
