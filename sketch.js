@@ -9,10 +9,10 @@ var py=0;
 function setup() {
   createCanvas(window.screen.width, window.screen.height);
   background(0);
-  x = width / 2;
-  y = height / 2;
-  px=x-1
-  py=y-1
+  x = (width / 2)+1;
+  y = (height / 2)+1;
+  px=x-2
+  py=y-2
   frameRate(144);
   strokeCap(PROJECT);
 }
