@@ -3,7 +3,7 @@ var y = 0;
 var cx = 1
 var cy = 1
 function setup() {
-  createCanvas(400, 300);
+  createCanvas(window.screen.width, window.screen.height);
   background(0);
   x = width / 2;
   y = height / 2;
