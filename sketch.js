@@ -2,8 +2,11 @@ var x = 0;
 var y = 0;
 var cx = 1
 var cy = 1
+
+var swidth = screen.width;
+var sheight = screen.height;
 function setup() {
-  createCanvas(window.screen.width, window.screen.height);
+  createCanvas(swidth, sheight);
   background(0);
   x = width / 2;
   y = height / 2;
