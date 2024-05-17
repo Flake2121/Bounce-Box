@@ -1,7 +1,7 @@
 var x = 0;
 var y = 0;
-var cx = 10
-var cy = 10
+var cx = 100
+var cy = 100
 
 var swidth = screen.width;
 var sheight = screen.height;
