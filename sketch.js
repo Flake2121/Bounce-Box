@@ -7,7 +7,7 @@ var py=0;
 let s = prompt("Enter Speed:", "10");
 
 function setup() {
-  createCanvas(window.screen.width/3, window.screen.height/3);
+  createCanvas(window.screen.width, window.screen.height);
   background(0);
   x = (width / 2)+2;
   y = (height / 2)+2;
