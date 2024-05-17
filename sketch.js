@@ -37,6 +37,7 @@ function draw() {
   y += cy;
 
   stroke(255);
+  line(x,y,x+(cx*10000),y+(cy*10000))
   rect(0,0,100,15);
   strokeWeight(1);
   stroke(0);
