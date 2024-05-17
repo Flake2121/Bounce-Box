@@ -15,7 +15,8 @@ function setup() {
   py=y-1;
   frameRate(144);
   strokeCap(PROJECT);
-  cx=cy=s;
+  cx=s;
+  cy=s;
 }
 
 function draw() {
