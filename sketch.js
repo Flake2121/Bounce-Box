@@ -7,7 +7,7 @@ var py=0;
 let s = prompt("Enter Speed:", "10");
 
 function setup() {
-  createCanvas(window.screen.width, window.screen.height);
+  createCanvas(window.screen.width/3, window.screen.height/3);
   background(0);
   x = (width / 2)+2;
   y = (height / 2)+2;
@@ -38,6 +38,13 @@ function draw() {
 
   stroke(255);
   line(x,y,x+(cx*10000),y+(cy*10000))
+  stroke(0)
+  strokeWeight(50)
+  line(0,0,0,height)
+  line(0,height,width,height)
+  line(width,height,width,0)
+  line(width,0,0,0)
+  stroke(255);
   rect(0,0,100,15);
   strokeWeight(1);
   stroke(0);
