@@ -20,6 +20,11 @@ function setup() {
 }
 
 function draw() {
+  stroke(255);
+  rect(0,0,100,15);
+  strokeWeight(1);
+  stroke(0);
+  text("x: "+x+" y: "+y,3,15);
   strokeWeight(30);
   colorMode(HSB);
   stroke((x/width)*255, ((y + 200)*height) / 2040, 255);
