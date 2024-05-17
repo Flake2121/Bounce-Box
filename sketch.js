@@ -1,7 +1,7 @@
 var x = 0;
 var y = 0;
-var cx = 1
-var cy = 1
+var cx = 0.5
+var cy = 0.5
 
 function setup() {
   createCanvas(window.screen.width, window.screen.height);
