@@ -23,6 +23,6 @@ function draw() {
   if (x + cx >= width - 15 || x + cx <= 15) {
     cx *= -1;
   }
-  x += cx*deltaTime;
-  y += cy*deltaTime;
+  x += cx;
+  y += cy;
 }
