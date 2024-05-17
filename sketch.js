@@ -1,7 +1,7 @@
 var x = 0;
 var y = 0;
-var cx = 100
-var cy = 100
+var cx = 1
+var cy = 1
 
 function setup() {
   createCanvas(window.screen.width, window.screen.height);
@@ -22,6 +22,6 @@ function draw() {
   if (x + cx >= width - 15 || x + cx <= 15) {
     cx *= -1;
   }
-  x += cx;
-  y += cy;
+  x += cx*deltaTime;
+  y += cy*deltaTime;
 }
