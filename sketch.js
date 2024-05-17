@@ -46,7 +46,7 @@ function draw() {
   line(width,0,0,0)
   stroke(255);
   strokeWeight(1);
-  rect(0,0,100,15);
+  rect(0,0,100,10);
   stroke(0);
   text("x: "+x+" y: "+y,3,15);
 }
