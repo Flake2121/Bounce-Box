@@ -5,6 +5,7 @@ var cy = 10;
 var px=0;
 var py=0;
 let s = prompt("Enter Speed:", "10");
+document.title = "Bounce Box";
 
 function setup() {
   createCanvas(window.screen.width, window.screen.height);
