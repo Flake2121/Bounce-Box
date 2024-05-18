@@ -1,1 +1,1 @@
-https://flake2121.github.io/Bounce-Box/
+https://bounce.crumblin.com
