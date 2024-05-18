@@ -10,8 +10,8 @@ document.title = "Bounce Box";
 function setup() {
   createCanvas(window.screen.width, window.screen.height);
   background(0);
-  x = (width / 2)+2;
-  y = (height / 2)+2;
+  x = 2;
+  y = 2;
   px=x-1;
   py=y-1;
   frameRate(144);
