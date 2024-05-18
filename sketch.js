@@ -23,7 +23,7 @@ function setup() {
 function draw() {
   strokeWeight(30);
   colorMode(HSB);
-  stroke((x/width)*255, ((y + 200)*height) / 2040, 255);
+  stroke((x/width)*255, ((y + 100)*height) / 2040, 255);
   line(px,py,x,y);
   if (y + cy >= height - 15 || y + cy <= 15) {
     cy *= -1;
@@ -37,7 +37,7 @@ function draw() {
   x += cx;
   y += cy;
 
-  stroke(255,0,255);
+  stroke(150,255,100);
   strokeWeight(29)
   line(x,y,x+(cx*10000),y+(cy*10000))
   stroke(0)
