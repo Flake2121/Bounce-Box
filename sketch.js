@@ -47,7 +47,9 @@ function draw() {
 
   stroke(150,255,100);
   strokeWeight(29)
+  if(l){
   line(x,y,x+(cx*10000),y+(cy*10000))
+  }
   stroke(0)
   strokeWeight(50)
   line(0,0,0,height)
