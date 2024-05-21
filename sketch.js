@@ -6,7 +6,7 @@ var px=0;
 var py=0;
 let s = prompt("Enter Speed:", "10");
 document.title = "Bounce Box";
-let l=prompt("Line predictions","No(accepted yes/no").toLowerCase()
+let l=prompt("Line predictionsNo(accepted yes/no)","No").toLowerCase()
 
 function setup() {
   createCanvas(window.screen.width, window.screen.height);
@@ -20,7 +20,7 @@ function setup() {
   strokeCap(PROJECT);
   cx=s;
   cy=s;
-  if (l="yes"){
+  if (l=="yes"){
     l=true
   }else {
     l=false
