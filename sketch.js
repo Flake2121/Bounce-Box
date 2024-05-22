@@ -9,7 +9,7 @@ document.title = "Bounce Box";
 let l=prompt("Line predictionsNo(accepted yes/no)","No").toLowerCase()
 
 function setup() {
-  createCanvas(window.screen.width, window.screen.height);
+  createCanvas(window.screen.availWidth, window.screen.availHeight);
   background(0);
   alert("F11 for best experience");
   x = width/2;
